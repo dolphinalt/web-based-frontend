@@ -13,6 +13,7 @@
         if (name == "") name = currentID
         localStorage.setItem('id', name)
         currentID = localStorage.getItem('id') ?? "not specified.";
+        console.log(localStorage.getItem('id'))
         fetch(SERVER + 'test_user', {
             mode: 'no-cors',
             method: 'POST',
