@@ -14,7 +14,7 @@
         localStorage.setItem('id', name)
         currentID = localStorage.getItem('id') ?? "not specified.";
         fetch(SERVER + 'test_user', {
-            
+            mode: 'no-cors',
             method: 'POST',
             headers: {
                 'Accept': 'application/json',

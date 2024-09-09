@@ -21,7 +21,7 @@
         }
 
         fetch(SERVER + 'start', {
-            
+            mode: 'no-cors',
             method: 'POST',
             headers: {
                 'Accept': 'application/json',

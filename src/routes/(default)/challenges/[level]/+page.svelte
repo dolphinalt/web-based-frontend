@@ -23,7 +23,7 @@
         }
 
         fetch(SERVER + 'problem', {
-            
+            mode: 'no-cors',
             method: 'POST',
             headers: {
                 'Accept': 'application/json',
@@ -61,7 +61,7 @@
         disabled = true;
 
         fetch(SERVER + 'submit', {
-            
+            mode: 'no-cors',
             method: 'POST',
             headers: {
                 'Accept': 'application/json',
