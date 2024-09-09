@@ -14,7 +14,7 @@
         localStorage.setItem('id', name)
         currentID = localStorage.getItem('id') ?? "not specified.";
         console.log(localStorage.getItem('id'))
-        const raw = "{ uid : '" + currentID + "' }"
+        const raw = JSON.stringify({ uid: localStorage.getItem('id') })
         console.log(raw)
         console.log(SERVER + 'test_user')
         fetch(SERVER + 'test_user', {
@@ -24,7 +24,7 @@
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: "{ 'uid': 'bc9caa62-e85d-4333-85cf-8918d346236c'}"
+            body: raw
         })
         .then(response =>
             response.json()
