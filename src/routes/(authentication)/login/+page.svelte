@@ -18,7 +18,6 @@
         console.log(raw)
         console.log(SERVER + 'test_user')
         fetch(SERVER + 'test_user', {
-            // mode: 'no-cors',
             redirect: 'follow',
             method: 'POST',
             headers: {
