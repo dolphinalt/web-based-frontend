@@ -30,7 +30,7 @@
       </ul>
     </div>
 
-    <a href="/" class="btn btn-ghost normal-case text-xl">Web-Based ICC</a>
+    <a href="/" class="btn btn-ghost normal-case text-xl">Boeing ICC</a>
   </div>
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal px-1">
