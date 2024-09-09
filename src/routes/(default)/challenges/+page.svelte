@@ -12,7 +12,7 @@
 
   async function fetchLevels () {
     fetch(SERVER + 'get_problems', {
-      mode: 'no-cors',
+      
         method: 'POST',
         headers: {
             'Accept': 'application/json',
