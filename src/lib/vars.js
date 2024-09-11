@@ -1,2 +1,2 @@
-const SERVER = "https://webbasedbackend.duckdns.org/"
+const SERVER = "https://www.cyberceo-sd.org/"
 export { SERVER }
